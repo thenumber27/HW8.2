@@ -21,11 +21,20 @@ body {
     padding: 20px 0;
 }
 
-.bislite {
+.bis {
+    font-weight: 600;
     color: #000;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
     font-size: 50px;
+}
+
+.lite {
+    color: #2aacc8;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
 }
 
 .navigation {
@@ -103,7 +112,7 @@ body {
     max-width: 100%;
     height: 500px;
     background-color: #81e4ed;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .slider_img {
@@ -111,7 +120,6 @@ body {
     height: 440px;
     background-color: #e05936;
     box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.12);
-    padding-top: 10px;
 }
 
 .slider_point {
@@ -139,7 +147,6 @@ body {
     width: 448px;
     height: 440px;
     float: right;
-    margin-top: -10px;
 }
 
 .slider_circle {
@@ -169,7 +176,7 @@ body {
 }
 
 .card {
-    width: 216px;
+    width: 21%;
     display: inline-block;
     padding-right: 40px;
     padding-bottom: 50px;
@@ -197,6 +204,7 @@ body {
     padding: 8px 0 0 9px;
 }
 
+
 .card_circle_img-full {
     padding: 3px 0 0 1px;
 }
@@ -205,14 +213,23 @@ body {
     padding: 3px 0 0 3px;
 }
 
+.latestworks a {
+    color: #000;
+}
+
 .card_text {
     font-size: 15px;
     font-weight: bold;
     float: right;
-    padding: 5px 15px 0 0;
+    padding: 10px 2px 0 0;
+}
+
+.card_text :first-child {
+    float: none;
 }
 
 .card_text_clean {
+    /* display: inline-block; */
     padding-right: 45px;
 }
 
