@@ -224,12 +224,7 @@ body {
     padding: 10px 2px 0 0;
 }
 
-.card_text :first-child {
-    float: none;
-}
-
 .card_text_clean {
-    /* display: inline-block; */
     padding-right: 45px;
 }
 
