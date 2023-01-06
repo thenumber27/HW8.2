@@ -200,18 +200,33 @@ body {
     height: 40px;
     background-color: #2aacc8;
     border-radius: 50%;
-    box-sizing: border-box;
-    padding: 8px 0 0 9px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
-.card_circle_img-full {
-    padding: 3px 0 0 1px;
+
+.card_circle_img1 {
+    background-image: url(./image/Shape_2.png);
+    background-size: 23px 23px;
 }
 
-.card_circle_img-view    {
-    padding: 3px 0 0 3px;
+.card_circle_img2    {
+    background-image: url(./image/fullscreen.png);
+    background-size: 20px 18px;
 }
+
+.card_circle_img3 {
+    background-image: url(./image/view_list.png);
+    background-size: 16px 16px;
+}
+
+.card_circle_img4    {
+    background-image: url(./image/plane_2.png);
+    background-size: 25px 25px;
+}
+
+
 
 .latestworks a {
     color: #000;
