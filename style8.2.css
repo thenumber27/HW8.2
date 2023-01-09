@@ -289,11 +289,13 @@ body {
 .latestworks_circle {
     width: 20px;
     height: 20px;
-    background-color: #81e4ed;
+    background-color: #44f7f7;
     border-radius: 50%;
-    box-sizing: border-box;
+    text-decoration: none;
     float: right;
-    padding: 1px 0 0 5px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1px;
     margin-left: 10px;
 }
 
@@ -479,7 +481,7 @@ body {
     text-align: left;
 }
 
-.footernav h1 {
+.footernav h4 {
     margin-top: 0;
     font-size: 15px;
     font-weight: 600;
@@ -532,3 +534,4 @@ body {
 .logo_footer {
    float: right;
 }
+
